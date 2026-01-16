@@ -30,36 +30,36 @@ body {
 
 @font-face {
   font-family: 'sinder';
-  src: url('/fonts/SINDER FREEBIE FINAL.ttf');
+  src: url('./fonts/SINDER FREEBIE FINAL.ttf');
 }
 
 @font-face {
   font-family: 'special-elite';
-  src: url('/fonts/SpecialElite.ttf');
+  src: url('./fonts/SpecialElite.ttf');
 }
 
 @font-face {
   font-family: 'acidic';
-  src: url('/fonts/acidic.ttf');
+  src: url('./fonts/acidic.ttf');
 
 }
 
 @font-face {
   font-family: 'horserad';
-  src: url('/fonts/HORSERAD.ttf');
+  src: url('./fonts/HORSERAD.ttf');
 
 }
 
 
 @font-face{
   font-family:'modc';
-  src: url('/fonts/modc_r.ttf');
+  src: url('./fonts/modc_r.ttf');
 
 }
 
 @font-face{
   font-family:'04B';
-  src: url('/fonts/04B_08__.ttf');
+  src: url('./fonts/04B_08__.ttf');
 }
 .center {
   display: block;
