@@ -1,0 +1,10 @@
+body {
+
+    background-color:grey;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 10px; /* gap between images */
+}

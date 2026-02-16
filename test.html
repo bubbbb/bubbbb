@@ -1,0 +1,38 @@
+<html style="padding:0px;margin:0px;">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Vinyl&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="test.css">
+<title>My Website</title>
+</head>
+<body style="margin:0px;padding:0px;">
+
+<script src="test.js"></script>
+
+<script>
+    const galleryContainer = document.querySelector('.gallery');
+
+// Assuming we have an array of image URLs
+const images = [
+  'image1.jpg',
+  'image2.jpg',
+  'image3.jpg',
+  // ...
+];
+
+images.forEach((image) => {
+  const imgElement = document.createElement('img');
+  imgElement.src = image;
+
+  galleryContainer.appendChild(imgElement);
+});
+</script>
+
+
+</body>

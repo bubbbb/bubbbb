@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html style="margin:0;padding:0;">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -8,295 +8,104 @@
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Rubik+Vinyl&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <title>Art</title>
+
+
 </head>
-<body>
+<body style="z-index:1;padding:0;margin:0;background-color:rgb(4, 71, 55); opacity:95%;background-image:none;">
+ <script src="test.js"></script>
+<div style="width:100%; height:165vh;background-image: url('./images/noise1.gif');background-size: 150px;opacity:55%; background-blend-mode:soft-light; background-repeat:repeat;z-index:0;position:absolute;z-index:-1;"></div>
+ <div style="height:100%;z-index:1;"> <!--Larger Div so that Floating works-->       
+        
+
+          <!-- image display -->
+        <div style="z-index:1;background-color:rgba(255, 0, 0, 0); width:55vw; height:46vw;overflow:hidden;margin-right:3vw;position:absolute;right:0px;position:fixed;overflow:visible;margin-top:1vw;display:flex;justify-content:center;align-items: center;"> <!--This div is intended to prevent the display from going offscreen, without interfering with the physical appearnace of it too much-->
+                <div style="background-color:gray; float:right; width:fit-content; height:fit-content;
+                            margin-right:0; margin-top:0px; top:0vw; padding-left:50px; padding-right:50px;
+                            border: outset black 5px;z-index:1;">
+
+                <div style="width:fit-content; max-width:800px; max-height:680px; height:fit-content;margin:auto;margin-top:45px;margin-bottom:55px;
+                background-color:black;border:5px solid black; outline:inset 10px black;padding:0;float:right;
+                display:flex;justify-content:center;align-items: center;">
+
+                <img class="clearfix" id="displayImage"src="images/artext.png";>
+                </div>
+
+                </div>  
+                </div>
 
 <!-- Banner -->
- <div class="banner" >
-      <div style="border:ridge 1vw rgb(66, 66, 51);border-top-left-radius:1vw;border-top-right-radius:2vw;outline:groove 2vw rgb(9, 9, 9);width: 40vw; margin-left: auto; margin-right: auto; max-height: auto;margin-top:1.5vw;">
-      <img src=images/banner2.png style="mix-blend-mode:difference;width: 38vw; margin-left:0; margin-right:0; max-height: auto;z-index:0;border-top-right-radius:1vw;" class="center">
-  
-	    <div class="centered" style="font-family:cry kitty; font-size:2vw; padding-top:3vh; word-spacing:4vw ;">Poll Feoil</div>
-  </div>
-    
+
+          <div style="z-index:1;background-color:rgb(143, 143, 143);margin-right:0;float:left;align-items:center;align-content:center;border:outset 5px black; padding-bottom:12px;">
+        <div class="banner" style="margin-left:0;display:flex;align-items:center;align-content:center;">
+        <div style="padding-top:10px;padding-bottom:10px;background-color:black;width: 570px;height:230px; margin-right:0; max-height: auto;border:black inset 5px;align-items:center;align-content:center;margin-left:15px; margin-top:15px;">
+        <img src=images/banner2.png style="mix-blend-mode:difference; width:530px; height:auto; margin-left:0px; margin-right:0; max-height: auto;z-index:0;align-items:center;align-content:center;">
+        
+                <div style="z-index:1;position:relative;transform:translate(-0%,-210%); font-family:cry-kitty; font-size:22px; padding-top:3vh; word-spacing:4v;;">Poll Feoil</div>
+        </div>
+        
+        </div>
+
+      
+        <!-- Buttons -->
+        <div style="z-index:1;background-color:rgb(143, 143, 143);mix-blend-mode:none;width:600px;height:80px;margin-top:0vh;position:relative;margin-right:0;margin-left:0;padding-left:5px;margin-bottom:0vh;padding-top:8px;padding-bottom:0;
+        display:flex;align-items:center;align-content:center;">
+        
+        <div class="buttonline" style="z-index:1; max-height:auto; width:580px;display:flex;justify-content:center;align-content:center;align-items:center;" >
+        <a href="index.html" class="buttonart" style="margin-right:10px;"><span style="text-decoration:underline;">H</span>ome</a>
+        <a href="art.html" class="buttonart" style="margin-left:10px;margin-right:10px;"><span style="text-decoration:underline;">A</span>rtwork</a>
+        <a href="projects.html" class="buttonart" style="margin-left:10px;margin-right:10px;"><span style="text-decoration:underline;">A</span>rchive</a>
+        <a href="about.html" class="buttonart" style="margin-left:10px;margin-right:10px;"> <span style="text-decoration:underline;">C</span>ontact</a>
+        </div>
+        </div>
+        
+        <div style="z-index:1;margin-left:15px;background-color:rgba(12, 17, 7, 0.959);background-image:url('images/noise1.gif');background-blend-mode:overlay;width:570px;justify-content:center;align-items:center;padding-top:15px;padding-bottom:15px;padding-right:15px;border:black 5px inset;">
+
+                <div style="z-index:1;background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
+                <a target="_blank" href="2025.html">
+                        <img src="images/2025.png" class="pixelated" style="width:95px;flex-direction:row;margin-top:25px;">
+                </a>
+        <div class="imageGallery" id="25">
+                <!-- Images will go here -->
+        </div>
+        </div>
+
+        
+        
+
+                <div style="z-index:1;background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
+                <a target="_blank" href="2024.html">
+                        <img src="images/2024.png" class="pixelated"style="width:95px;flex-direction:row;margin-top:25px;overflow:visible;">
+                </a>
+        <div class="imageGallery" id="24">
+                <!-- Images will go here -->
+        </div>
+</div>
+        
+                <div style="background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
+                <a target="_blank" href="2023.html">
+                        <img src="images/2023.png" class="pixelated"style="width:95px;flex-direction:row;margin-top:25px;">
+                </a>
+        <div class="imageGallery" id="23">
+                <!-- Images will go here -->
+        </div>
+</div>
+        
+
+                <div style="background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
+                <a target="_blank" href="2022.html">
+                        <img src="images/2022.png" class="pixelated"style="width:80px;flex-direction:row;margin-top:25px;overflow:visible;">
+                </a>
+        <div class="imageGallery" id="22">
+                <!-- Images will go here -->
+        </div>
+
+        </div>
+</div>
 </div>
 
-<!-- Buttons -->
-<div id="grad2" style="mix-blend-mode:none;overflow:visible;width:45vw;height:10vh;margin-top:0vh;position:relative;margin-right:auto;margin-left:auto;padding-top:0.5vh;border-radius:1.5vw;margin-bottom:0vh;border:0.3vw solid rgb(36, 42, 31);padding-bottom:0;">
-    
-      <div  style="z-index:1; max-height:auto; width:35vw;" class="buttonline">
-   <a href="index.html" class="button center" style="height:7vh;padding-top:2.3vh;font-size:2vh;letter-spacing:0.1vw;border-top-right-radius:0;border-bottom-right-radius:0;margin-right:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-right:0px;">HOME</a>
-   <a href="art.html" class="button center" style="height:7vh;padding-top:2.2vh;font-size:2vh;letter-spacing:0.1vw;border-radius:0;margin-right:0;margin-left:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-right:0px;border-left:0px;">ARTWORK</a>
-   <a href="projects.html" class="button center"style="height:7vh;padding-top:2.2vh;font-size:2vh;letter-spacing:0.1vw;border-radius:0;margin-right:0;margin-left:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-right:0px;border-left:0px;" >PROJECTS</a>
-   <a href="about.html" class="center button" style="height:7vh;padding-top:2.3vh;font-size:2vh;letter-spacing:0.1vw;border-top-left-radius:0;margin-left:0;border-bottom-left-radius:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-left:0px;"> CONTACT </a>
-  </div>
- </div>
 
-
-  <!-- 2025-->
- 
-
-
-<div style="display:flex;margin-left:29vw;">
-  <a target="_blank" style="width:auto;" href="2025.html">
-  <img style="width:8vw;height:13vh;display:block;margin-top:5vh;margin-right:1vw;mix-blend-mode:exclusion;" src="images/ball.png">
-  </a>
-  <div class="main" style="padding:auto;max-height:auto; width:27vw; margin-right:0; margin-left:0;margin-top:4vh;margin-bottom:4vh;display:block;">
-
-
-      <!-- Gallery, Each image requires one of these containers -->
-      <div class="gallery">
-        <a target="_blank" href="images/gallery/boxemrobots.png">
-          <img src="images/thumb/thumb4.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery" >
-        <a target="_blank" href="images/gallery/dearg.png">
-          <img src="images/thumb/thumb3.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery" >
-        <a target="_blank" href="images/gallery/hole.png">
-          <img src="images/thumb/thumb2.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery" >
-        <a target="_blank" href="images/gallery/hole2a.png">
-          <img src="images/thumb/thumb1.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-    </div>
-
-
-  <div style="display:block;float:left;padding-left:1vw;margin-top:4vh;"><span style="font-family:sinder;color:rgb(188, 188, 21);font-size:3.5vh;"><p style="margin-top:3vh;margin-bottom:0;">20</h><p style="margin-top:0;margin-bottom:0;">25</h></span></div>
-    </div>
-
-    
-  <!-- end of 2025 -->
-
-<!-- 2024-->
-
-
-
-
- 
-  <div style="display:flex;">
-<a target="_blank" style="margin-left:29vw;" href="2024.html">
-  <img style="margin-left:auto;width:8vw;height:29vh;display:block;margin-top:auto;mix-blend-mode:exclusion;margin-right:1vw;" src="images/ball.png">
-  </a>
-  <div class="main" style="max-height:auto;width:27vw;margin-right:0; margin-left:0;display:block;flex-wrap:wrap;" >
-
-
-    <!-- Gallery, Each image requires one of these containers -->
-    <div class="gallery">
-      <a target="_blank" href="images/gallery/246.jpg">
-        <img src="images/thumb/9.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery" >
-      <a target="_blank" href="images/gallery/247.png">
-        <img src="images/thumb/10.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery" >
-      <a target="_blank" href="images/gallery/245.png">
-        <img src="images/thumb/8.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery" >
-      <a target="_blank" href="images/gallery/243.gif">
-        <img src="images/thumb/7.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
- <div class="gallery">
-      <a target="_blank" href="images/gallery/242.gif">
-        <img src="images/thumb/6.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/241.jpg">
-        <img src="images/thumb/5.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  </div>
-
-
-<div style="display:block;float:left;margin-right:auto;padding-left:1vw;margin-top:1.5vh;"><span style="font-family:sinder;color:rgb(188, 188, 21);font-size:3.5vh;"><p style="margin-top:1vh;margin-bottom:0;">20</h><p style="margin-top:0;margin-bottom:0;">24</h></span></div>
-
-</div>
-  <!--end of 2024 -->
-
-
-
-  <!-- 2023-->
-
-
-
-
-<div style="display:flex;margin-left:29vw;">
-  <a target="_blank" style="width:auto;" href="2023.html">
-  <img style="width:8vw;height:35vh;display:block;margin-top:8vh;mix-blend-mode:exclusion;" src="images/ball.png">
-  </a>
-
-  <div class="main" style="max-height:auto;width:27vw;padding-left:auto;background-color:rgb(119, 70, 47);margin-top:4vh;" >
-
-
-    <!-- Gallery, Each image requires one of these containers -->
-    <div class="gallery" >
-      <a target="_blank" href="images/gallery/239.png">
-        <img src="images/thumb/11.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery" >
-      <a target="_blank" href="images/gallery/238.jpg">
-        <img src="images/thumb/12.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery" >
-      <a target="_blank" href="images/gallery/237.gif">
-        <img src="images/thumb/13.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
- <div class="gallery">
-      <a target="_blank" href="images/gallery/236.jpg">
-        <img src="images/thumb/14.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
- <div class="gallery">
-      <a target="_blank" href="images/gallery/235.jpg">
-        <img src="images/thumb/15.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/234.jpg">
-        <img src="images/thumb/16.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/233b.jpg">
-        <img src="images/thumb/17.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/233a1.jpg">
-        <img src="images/thumb/18.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery" >
-      <a target="_blank" href="images/gallery/233a.png">
-        <img src="images/thumb/19.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/233.jpg">
-        <img src="images/thumb/20.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery">
-      <a target="_blank" href="images/gallery/232.png">
-        <img src="images/thumb/21.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  <div class="gallery" >
-      <a target="_blank" href="images/gallery/231.png">
-        <img src="images/thumb/22.png" alt="ball" width="auto" height="auto">
-      </a>
-  </div>
-
-  </div>
-
-<div style="display:block;float:left;margin-right:auto;padding-left:0vw;margin-top:5vh;"><span style="font-family:sinder;color:rgb(188, 188, 21);font-size:3.5vh;"><p style="margin-top:1vh;margin-bottom:0;">20</h><p style="margin-top:0;margin-bottom:0;">23</h></span></div>
-
-
-
-  </div> <!-- end of column box-->
-
-
-
-  <!--end of 2023 -->
-  <!--start of 2022-->
-
-
-
-
-
-<div style="display:flex;margin-left:29vw;">
-  <a target="_blank" style="width:auto;" href="2022.html">
-  <img style="width:8vw;height:19vh;display:block;margin-top:10vh;mix-blend-mode:exclusion;" src="images/ball.png">
-  </a>
-
-    <div class="main" style="max-height:auto;width:27vw;padding-left:auto;margin-top:4vh;margin-right:0;" >
-
-
-      <!-- Gallery, Each image requires one of these containers -->
-      <div class="gallery">
-        <a target="_blank" href="images/gallery/226.png">
-          <img src="images/thumb/23.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery" >
-        <a target="_blank" href="images/gallery/225.png">
-          <img src="images/thumb/24.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery" >
-        <a target="_blank" href="images/gallery/224.jpg">
-          <img src="images/thumb/25.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-  <div class="gallery">
-        <a target="_blank" href="images/gallery/223.jpg">
-          <img src="images/thumb/26.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-  <div class="gallery">
-        <a target="_blank" href="images/gallery/222a.png">
-          <img src="images/thumb/27.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-  <div class="gallery">
-        <a target="_blank" href="images/gallery/222.jpg">
-          <img src="images/thumb/28.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/gallery/221a.png">
-          <img src="images/thumb/29.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-    <div class="gallery">
-        <a target="_blank" href="images/gallery/221.png">
-          <img src="images/thumb/30.png" alt="ball" width="auto" height="auto">
-        </a>
-    </div>
-
-
-  </div>
-  
-  <div style="display:block;float:left;margin-right:0;padding-left:1vw;margin-top:5vh;"><span style="font-family:sinder;color:rgb(188, 188, 21);font-size:3.5vh;margin-left:0;"><p style="margin-top:1vh;margin-bottom:0;">20</h><p style="margin-top:0;margin-bottom:0;">22</h></span></div>
-
+        </div>
 </div>
 
-  <!--end of 2022 -->
-  </div>
-  </div>
-  </div>
-</div>
 </body>
 </html> 
