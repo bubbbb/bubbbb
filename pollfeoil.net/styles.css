@@ -1,5 +1,5 @@
 body {
-  background-image: url('./images/noise1.gif');
+  background-image: url('images/noise1.gif');
   background-blend-mode:color-dodge;
   background-color: rgb(12, 12, 12);
   overflow:visible;
@@ -15,51 +15,51 @@ body {
 
 @font-face {
   font-family: 'cry-kitty';
-  src: url('/fonts/crykitty.ttf');
+  src: url('fonts/crykitty.ttf');
 }
 
 @font-face {
   font-family: 'punk-kid';
-  src: url('/fonts/punk kid.ttf');
+  src: url('fonts/punk kid.ttf');
 }
 
 @font-face {
   font-family: 'shlop';
-  src: url('/fonts/shlop rg.otf');
+  src: url('fonts/shlop rg.otf');
 }
 
 @font-face {
   font-family: 'sinder';
-  src: url('/fonts/SINDER FREEBIE FINAL.ttf');
+  src: url('fonts/SINDER FREEBIE FINAL.ttf');
 }
 
 @font-face {
   font-family: 'special-elite';
-  src: url('/fonts/SpecialElite.ttf');
+  src: url('fonts/SpecialElite.ttf');
 }
 
 @font-face {
   font-family: 'acidic';
-  src: url('/fonts/acidic.ttf');
+  src: url('fonts/acidic.ttf');
 
 }
 
 @font-face {
   font-family: 'horserad';
-  src: url('/fonts/HORSERAD.ttf');
+  src: url('fonts/HORSERAD.ttf');
 
 }
 
 
 @font-face{
   font-family:'modc';
-  src: url('/fonts/modc_r.ttf');
+  src: url('fonts/modc_r.ttf');
 
 }
 
 @font-face{
   font-family:'04B';
-  src: url('/fonts/04B_08__.ttf');
+  src: url('fonts/04B_08__.ttf');
 }
 .center {
   display: block;
