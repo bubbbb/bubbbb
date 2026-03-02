@@ -376,18 +376,18 @@ padding-top:20px;
 
 .imageGallery {
   width: 392px;
+  height: fit-content;
   margin: 0;
   transition: transform .2s;
   box-shadow: 1px;
-  margin-top: 25px;
-  margin-left: 50px;
-  margin-right:10px;
+  margin-left: 40px;
+  margin-right:5px;
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  background-color:rgb(47, 56, 47);
+  background-color:rgb(47, 71, 13);
   z-index:1;
-  
+  padding:auto;
   
   
 }
@@ -407,8 +407,8 @@ padding-top:20px;
   border-color:black;
   outline: 1px solid rgb(204, 204, 204);
   display:flex;
-  margin-left:5px;
-  margin-right:5px;
+  margin-left:auto;
+  margin-right:auto;
   margin-top:5px;
   margin-bottom:5px;
   z-index:1;
@@ -566,4 +566,42 @@ background: linear-gradient(0deg, rgb(56, 65, 58) 0%, rgb(78, 87, 82) 54%, rgb(8
       text-shadow:rgba(0, 0, 0, 0.144) 0px 3px;
     }
 
-    
+    .collapsible {
+  background-color: #bfbfbf00;
+  color: #bcbc1f;
+  cursor: pointer;
+  padding:0;
+  padding-bottom: 5px;
+  width: 550px;
+  border: none;
+  text-align: right;
+  outline: none;
+  font-size: 25px;
+  font-family:'sinder';
+  height:45px;
+  border: rgba(255, 255, 0, 0) 2px solid;
+  margin-bottom:8px;
+  margin-top:5px;
+  padding-right:5px;
+  background-image:url('../images/circut1.png');
+  z-index:1;
+  
+}
+
+.active, .collapsible:hover {
+  background-color: #55555500;
+  color:rgb(30, 113, 5);
+  font-size:20px;
+  padding:3px;
+  padding-right:11px;
+  background-image:url('../images/circut1a.png');
+  
+}
+
+
+.content {
+  padding: 0 0px;
+  display: none;
+  overflow: hidden;
+
+}

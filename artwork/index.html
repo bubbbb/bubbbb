@@ -33,7 +33,7 @@
 
       
         <!-- Buttons -->
-        <div style="z-index:1;background-color:rgb(143, 143, 143);mix-blend-mode:none;width:600px;height:80px;margin-top:0vh;position:relative;margin-right:0;margin-left:0;padding-left:5px;margin-bottom:0vh;padding-top:8px;padding-bottom:0;
+        <div style="z-index:1;background-color:rgb(143, 143, 143);mix-blend-mode:none;width:600px;height:80px;margin-top:0vh;margin-right:0;margin-left:0;padding-left:5px;margin-bottom:0vh;padding-top:8px;padding-bottom:0;
         display:flex;align-items:center;align-content:center;">
         
         <div class="buttonline" style="z-index:1; max-height:auto; width:580px;display:flex;justify-content:center;align-content:center;align-items:center;" >
@@ -44,51 +44,85 @@
         </div>
         </div>
         
-        <div style="z-index:1;margin-left:15px;background-color:rgba(12, 17, 7, 0.959);background-image:url('images/noise1.gif');background-blend-mode:overlay;width:570px;justify-content:center;align-items:center;padding-top:15px;padding-bottom:15px;padding-right:15px;border:black 5px inset;">
+        <div style="font-size:0px;z-index:0;margin-left:15px;background-color:rgba(12, 17, 7, 0.959);background-image:url('../images/noise1.gif');background-blend-mode:overlay;width:570px;justify-content:center;align-items:center;padding-top:0px;padding-bottom:15px;padding-right:15px;border:black 5px inset;position:relative;">
+        
+                <div style="z-index:0;background-image:url('../images/circut2.png');height:100%;width:30px;background-repeat:repeat-y;padding:0;margin:0;position:absolute;left:105px;overflow:hidden;"> p
+                        </div>
+        <div style="background-color:rgba(255, 0, 0, 0); position:relative;">
+        <button type="button" class="collapsible">20<p style="margin-top:0;margin-bottom:0;">25</p></button>
+        <div class="content" style="position:relative;">
 
                 <div style="z-index:1;background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
-                <a target="_blank" href="2025/">
-                        <img src="../images/2025.png" class="pixelated" style="width:95px;flex-direction:row;margin-top:25px;">
+                <a target="_blank" href="2025/" style="height:fit-content;margin-left:10px;">
+                        <img src="../images/2025.png" class="pixelated" style="width:95px;flex-direction:row;">
                 </a>
         <div class="imageGallery" id="25">
                 <!-- Images will go here -->
         </div>
         </div>
-
+        </div>
+       
         
-        
+        <button type="button" class="collapsible">20<p style="margin-top:0;margin-bottom:0;">24</p></button>
+        <div class="content">
 
                 <div style="z-index:1;background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
-                <a target="_blank" href="2024/">
-                        <img src="../images/2024.png" class="pixelated"style="width:95px;flex-direction:row;margin-top:25px;overflow:visible;">
+                <a target="_blank" href="2024/" style="height:fit-content;margin-left:10px;">
+                        <img src="../images/2024.png" class="pixelated"style="width:95px;flex-direction:row;overflow:visible;">
                 </a>
         <div class="imageGallery" id="24">
                 <!-- Images will go here -->
         </div>
-</div>
+        </div>
+        </div>
         
+        <button type="button" class="collapsible">20<p style="margin-top:0;margin-bottom:0;">23</p></button>
+        <div class="content">
+
                 <div style="background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
-                <a target="_blank" href="2023/">
-                        <img src="../images/2023.png" class="pixelated"style="width:95px;flex-direction:row;margin-top:25px;">
+                <a target="_blank" href="2023/" style="height:fit-content;margin-left:10px;">
+                        <img src="../images/2023.png" class="pixelated"style="width:95px;flex-direction:row;">
                 </a>
         <div class="imageGallery" id="23">
                 <!-- Images will go here -->
         </div>
-</div>
+        </div>
+        </div>
         
+        <button type="button" class="collapsible">20<p style="margin-top:0;margin-bottom:0;display:block;flex-direction:column;">22</p></button>
+        <div class="content">
 
                 <div style="background-color:rgba(255, 0, 0, 0);display:inline-block;display:flex;flex-direction:row;">
-                <a target="_blank" href="2022/">
-                        <img src="../images/2022.png" class="pixelated"style="width:80px;flex-direction:row;margin-top:25px;overflow:visible;">
+                <a target="_blank" href="2022/" style="height:fit-content;margin-left:20px;margin-top:45px;">
+                        <img src="../images/2022.png" class="pixelated"style="width:85px;flex-direction:row;overflow:visible;align-content:center;justify-items:center;">
                 </a>
         <div class="imageGallery" id="22">
                 <!-- Images will go here -->
         </div>
-
+        </div>
+        </div>
+        </div>
         </div>
 </div>
 </div>
 
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 
         </div>
 
