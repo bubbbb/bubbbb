@@ -142,12 +142,15 @@ body {
 
 .buttonart {
   background: #9f9f9f;
+  margin-right:10px;
+  margin-left:10px;
   border: outset black 3px;
   color: rgb(0, 0, 0);
   text-shadow:black 0px 1px;
   text-align: center;
   text-decoration: none;
   height:55px;
+  max-width:23vw;
   width:110px;
   padding-top:17px;
   padding-left:5px;
@@ -156,10 +159,10 @@ body {
   letter-spacing:1px;
   margin-right:0;
   margin-left:0;
-  white-space:hide;
+  
   font-family:'Courier New', Courier, monospace;
   justify-content:center;
-  display:inline-block;
+  
   mix-blend-mode:luminosity;
 }
 
