@@ -1,5 +1,6 @@
 body {
-  background-image: url('images/noise1.gif');
+  background-image: url('../images/noise1.gif');
+  background-size:400px;
   background-blend-mode:color-dodge;
   background-color: rgb(12, 12, 12);
   overflow:visible;
@@ -539,14 +540,10 @@ background: linear-gradient(0deg, rgb(56, 65, 58) 0%, rgb(78, 87, 82) 54%, rgb(8
 }
 
 
-  #outerDiv
-    { height : 25vh;
-      margin : 44px; border: none 4px Red;
-    }
+
 
     #innerDiv
-    { height     : 40vh;
-      width: 2cqb;
+    { 
       overflow-y : scroll;
       overflow-x:hidden;
       border-radius:5px;

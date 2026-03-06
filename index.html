@@ -20,7 +20,12 @@
         .hidden-mobile {
           display: none;
         }
+        .adjust-mobile {
+          right:10vw;
+        }
 }
+
+
 
 </style>
 
@@ -28,7 +33,7 @@
   o
    </div> -->
 <div style="background-color:rgba(255, 0, 0, 0);display:flexbox;height:max-content;z-index:-2;flex-direction:row;position:absolute;width:100%;height:100%;overflow-x:hidden;">
-<div class="hidden-mobile" style="border:2px blue;float:left;padding-bottom:0;margin:0;width:27%;height:800px;line-height:0;padding-top:1vh;overflow-x:visible;position:relative;overflow:hidden;">
+<div class="hidden-mobile" style="border:2px blue;float:left;padding-bottom:0;margin:0;width:27%;height:800px;line-height:0;padding-top:1vh;overflow-x:visible;position:relative;">
   <img src="./images/grown.png" style="width:auto;height:800px;margin:0;padding:0;line-height:0;float:left;z-index:-1;position:relative;">
  </div>
 
@@ -39,17 +44,17 @@
       <div style="mix-blend-mode:difference;display:flex;background-color: rgba(84, 85, 78, 0.858);border:solid 5px rgb(28, 28, 28);outline:groove 5px rgb(9, 9, 9);width: 600px; padding:20px; margin-left: auto; margin-right: auto; max-height:300px;margin-top:15px;mix-blend-mode:normal;align-items:center;justify-content:center;max-width:100vw;">
       <img src=images/banner1.png style="mix-blend-mode:difference;background-color:black;width:550px;height:auto; padding:0; margin-left:auto; margin-right:auto; max-height: 550px;overflow: hidden;display:flex;align-items:center;justify-content:center;">
       
-	   <div class="strokeme" style="mix-blend-mode:none;position:absolute;display:flex;z-index:1;width:400px;font-family:punk-kid;font-size:65px;color:rgb(96, 165, 50);align-items:center;justify-content:center;align-items:center;justify-content:center;">PollFeoil</div>
+	   <div class="strokeme" style="mix-blend-mode:none;position:absolute;display:flex;z-index:1;width:400px;font-family:punk-kid;font-size:65px;max-width:30vw;color:rgb(139, 74, 46);align-items:center;justify-content:center;align-items:center;justify-content:center;">PollFeoil</div>
         </div>
         
   
     
  <!-- Buttons -->
-       <div id="grad2" style="position:relative;overflow:visible;width:700px;height:95px;margin-top:0vh;margin-right:auto;margin-left:auto;
+       <div class="adjust-mobile" id="grad2" style="position:relative;overflow:visible;width:700px;height:95px;margin-top:0vh;margin-right:auto;margin-left:auto;
                      padding-top:10px;border-radius:55px;margin-bottom:0;border:4px solid rgb(37, 43, 37);padding-bottom:0;padding-left:auto;
-                      padding-right:auto;align-self:center;justify-items:center;display:inline-block;max-width:100vw;overflow:hidden;">
+                      padding-right:auto;align-self:center;justify-items:center;display:inline-block;max-width:120vw;overflow:hidden;">
 
-        <div class="buttonline" style="z-index:1; height:50px; width:510px;max-width:100%;display:flex;align-content:center;justify-content:center;justify-items:center;" >  
+        <div class="buttonline" style="z-index:1; height:50px; width:510px;max-width:100vw;display:flex;align-content:center;justify-content:center;justify-items:center;" >  
     <a href="#" class="button"style="border-top-right-radius:0;border-bottom-right-radius:0;">HOME</a>
     <a href="artwork/" class="button" style="letter-spacing:1px;border-radius:0;margin-right:0;margin-left:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-right:0px;border-left:0px;">ARTWORK</a>
     <a href="archive/" class="button" style="letter-spacing:1px;border-radius:0;margin-right:0;margin-left:0;outline:1px solid black;border:2px solid  rgba(203, 212, 176, 0.691);border-bottom:0px;border-right:0px;border-left:0px;" >ARCHIVE</a>
@@ -59,22 +64,21 @@
     </div>
 
     <!-- Page content -->
-     <div style="display:flex;align-items:center;position:relative;z-index:1;width:100%;margin-left:auto;margin-right:auto;justify-content:center;align-self:center;">
+      
       <div class="main" style="background-color:rgb(48, 48, 48);margin-left:auto; margin-right:auto; max-height:auto;margin-top:0vh;overflow:visible;
                               border:solid 5px rgb(28, 28, 28);border-radius:10px;border-top-left-radius:0;border-top-right-radius:0;
-                              outline:solid 5px rgb(48, 48, 48);width:620px;height:400px;margin-bottom:0;max-width:100vw;justify-content:center;">
+                              outline:solid 5px rgb(48, 48, 48);width:610px;height:400px;margin-bottom:0;max-width:100vw;display:flex;flex-direction:row;">
 
-      <div style="width:420px;float:left;height:390px;flex-direction:row;margin-bottom:0;padding-bottom:0;">
-    
+      
     
     <!--this box is gonna be border part of the thing like nokia ish-->  
       
-      <div style="display:flex;background-color:rgb(107, 108, 98);border:5px  rgb(56, 60, 56) outset;height:380px;width:350px;margin:0;padding:10px;position:relative;right:100px;top:20px;z-index:2;border-radius:8px;border-bottom-left-radius:20px;margin-bottom:0px;
-                  align-items:center;justify-content:center;">
+      <div style="display:flex;background-color:rgb(89, 90, 78);border:5px  rgb(56, 60, 56) outset;height:360px;width:320px;margin:0;padding:10px;position:relative;z-index:2;border-radius:8px;border-bottom-left-radius:20px;margin-bottom:0px;
+                  align-items:center;justify-content:center;float:left;">
         
         <div style="background-color:white;margin-bottom:0vh;height:275px;width:250px;float:left;display:block;font-size:12px;letter-spacing:1px;word-spacing:1px;" id="innerDiv">
 
-            <img src="images/200square.png" style="margin-bottom:0;pointer-events:none;z-index:0;position:absolute; height:200px;width:15vw;margin-top:0.5vw;mix-blend-mode:soft-light;opacity:20%;margin-right:auto;margin-left:auto;font-family:04B;">
+            <img src="images/200square.png" style="margin-bottom:0;pointer-events:none;z-index:0;position:absolute; height:200px;width:200px;margin-top:0.5vw;mix-blend-mode:soft-light;opacity:20%;margin-right:auto;margin-left:auto;font-family:04B;">
 
           
             <div style="margin:0;margin-top:25px;padding:0;border-top:solid 0.2vh rgba(17, 12, 4, 0.719);position:sticky;"></div>
@@ -82,19 +86,20 @@
             <p style="z-index:1;pointer-events:none;">Thank you for visiting POLLFEOIL.</p>
         
         <!-- <p style="z-index:1;pointer-events:none;">I like developing games, I like taking photographs, I like graphic design, and I like digital art. I like painting, and I like drawing. I like spray-painting when I can be bothered to make the trip to the shop that sells the good stuff.</p> -->
-        <p style="z-index:1;pointer-events:none;margin-top:3vh;">This website is used to host the work of Jordy W. , an irish artist from N. Ireland. Contact info and socials can be found on the 'contact' page.</p>
-        <p style="z-index:1;pointer-events:none;">this website will be updated with said work on a random basis with anything from illustration to game development. more to come. </p>
+        <p style="z-index:1;pointer-events:none;margin-top:3vh;">This website is used to host the work of Jordy W. .</p>
+        <p style="z-index:1;pointer-events:none;">this website will be updated with said work regularly with anything from illustration to game development. bookmark to stay updated on the latest. more to come. </p>
           </div>
 
         </div>
-    <img src="images/lump.png"class="pixelated" style="width:325px;position:relative;bottom:350px;z-index:1;float:right;display:block;overflow:hidden;white-space:nowrap;margin-bottom:0;">
-
+      <div style="z-index:1;display:flex;overflow:visible;margin-bottom:0;width:500px;">
+    <img src="images/lump.png"class="pixelated" style="width:auto;">
+        </div>
     </div>
   </div>
-  </div>
-  </div>
-    <div class="hidden-mobile" style="z-index:-2;border:2px rgb(0, 141, 26);float:right;padding-bottom:0px;;margin:0;;width:28%;height:800px;line-height:0;padding-top:1vh;position:relative;overflow:hidden;">
-  <img src="./images/olive.png" style="z-index:-1;width:auto;height:800px;padding:0;display:block;float:left;position:relative;"> 
+  
+  
+    <div class="hidden-mobile" style="border:2px rgb(0, 141, 26);float:right;padding-bottom:0px;;margin:0;;width:27%;height:800px;line-height:0;padding-top:1vh;position:relative;">
+  <img src="./images/olive.png" style="z-index:-1;width:auto;height:800px;padding:0;position:relative;float:left;"> 
 </div>
 
 </div>
