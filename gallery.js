@@ -1,6 +1,6 @@
 function tobeyBob(e) {
   const imgItem = e.currentTarget;
-  document.getElementById('displayImage').src =
+  document.getElementById('displayImage','displayImageMobile').src =
     `../images/artwork/${imgItem.getAttribute('imgNo')}.png`;
 }
   document.addEventListener('DOMContentLoaded', function() {
