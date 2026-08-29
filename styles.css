@@ -662,3 +662,18 @@ background: linear-gradient(0deg, rgb(56, 65, 58) 0%, rgb(78, 87, 82) 54%, rgb(8
   z-index:1;
   max-width:80vw;
 }
+
+.barbuta {
+
+  height:300px;
+  border:rgb(153, 153, 153) solid 1px;
+  margin:3px;
+  display:flexbox;
+  float:center;
+}
+
+.barbuta:hover {
+
+  cursor:pointer;
+}
+
