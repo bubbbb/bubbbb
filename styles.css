@@ -220,6 +220,18 @@ body {
     box-shadow: black 0px 1px;
 }
 
+.splashbutton {
+  background-image: url('images/splashbutton.png');
+  background-repeat:no-repeat;
+  position:relative;
+  flex-wrap:nowrap;
+  font-size:0px;
+}
+
+.splashbutton:hover {
+
+  background-image: url('images/splashbutton.gif');
+}
 
 .button2 {
 background-image: url('images/home.gif');
@@ -672,8 +684,4 @@ background: linear-gradient(0deg, rgb(56, 65, 58) 0%, rgb(78, 87, 82) 54%, rgb(8
   float:center;
 }
 
-.barbuta:hover {
-
-  cursor:pointer;
-}
 
