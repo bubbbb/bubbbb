@@ -8,6 +8,8 @@ body {
   
 }
 
+#preload {display: none}
+
 .rubik-vinyl-regular {
   font-family: "Rubik Vinyl", system-ui;
   font-weight: 400;
